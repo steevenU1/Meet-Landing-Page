@@ -22,3 +22,50 @@ html{
     font-size: 62.5%;
     font-family: 'Red Hat Display', sans-serif;
 }
+
+header .nav-logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    min-width: 320px;
+    height: 60px;
+    margin-bottom: 50px;
+}
+
+header .nav-logo-container img{
+    width: 118px;
+    height: 28px;
+}
+
+.header-faces-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+}
+
+.faces-left .faces-right{
+    width: 50%;
+    height: auto;
+
+}
+
+.faces-left img {
+    width: auto;
+    max-width: 320px;
+    height: auto;
+    max-height: 160px;
+}
+
+.faces-right img {
+    width: auto;
+    max-width: 320px;
+    height: auto;
+    max-height: 160px;
+}
+
+.faces-info--container{
+    display: none;
+}
