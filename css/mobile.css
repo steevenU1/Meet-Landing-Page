@@ -129,3 +129,10 @@ header .nav-logo-container img{
     font-weight: 900;
     font-style: normal;
 }
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
