@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
 
 :root{
     --primary-blue: #4d96a9;
@@ -44,28 +44,88 @@ header .nav-logo-container img{
     width: 100%;
     min-width: 320px;
     height: auto;
-}
-
-.faces-left .faces-right{
-    width: 50%;
-    height: auto;
-
-}
-
-.faces-left img {
-    width: auto;
-    max-width: 320px;
-    height: auto;
-    max-height: 160px;
-}
-
-.faces-right img {
-    width: auto;
-    max-width: 320px;
-    height: auto;
-    max-height: 160px;
+    margin-bottom: 50px;
 }
 
 .faces-info--container{
     display: none;
+}
+
+.faces-left, .faces-right{
+    width: 50%;
+    height: auto;
+}
+
+.faces-left img, .faces-right img{
+    width: 100%;
+}
+
+.main-info-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+}
+
+.main-info-section h1{
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 4.5rem;
+    padding: 15px;
+   
+}
+
+.main-info-section p{
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    padding: 15px;
+}
+
+.main-button--container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.main-dl-button{
+    width: 150px;
+    height: 50px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--primary-blue);
+    color: var(--simple-white);
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.main-dl-button span{
+    color: var(--hover-blue);
+}
+
+.main-info-button{
+    width: 130px;
+    height: 50px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--primary-purple);
+    color: var(--simple-white);
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
 }
