@@ -150,7 +150,7 @@ header .nav-logo-container img{
     justify-content: space-evenly;
     width: 100%;
     height: auto;
-    margin: 60px auto;
+    margin: 60px auto 30px;
     flex-wrap: wrap;
 }
 
@@ -178,7 +178,38 @@ header .nav-logo-container img{
 
 .text-info-container{
     display: flex;
+    width: 100%;
+    height: auto;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+.text-info-container h3{
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    color: var(--primary-blue);
+    margin-bottom: 10px;
+}
+
+.text-info-container h2{
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 3.5rem;
+    margin-bottom: 25px;
+}
+
+.text-info-container p{
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 25px;
+    line-height: 2.5rem;
+    max-width: 600px;
 }
