@@ -136,3 +136,49 @@ header .nav-logo-container img{
     width: 100%;
     height: auto;
 }
+
+.icon-container{
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.main-gallery-cotainer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    margin: 60px auto;
+    flex-wrap: wrap;
+}
+
+.gallery-pic{
+    display: flex;
+    width: 50%;
+    min-width: 160px;
+    max-width: 160px;
+    height: auto;
+    max-height: 220px;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.gallery-pic img{
+    width: 100%;
+    max-width: 160px;
+    height: auto;
+    max-height: 220px;
+    justify-content: center;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.text-info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
