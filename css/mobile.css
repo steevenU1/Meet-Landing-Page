@@ -115,6 +115,10 @@ header .nav-logo-container img{
     color: var(--hover-blue);
 }
 
+.main-dl-button:hover{
+    background-color: #71C0D4;
+}
+
 .main-info-button{
     width: 130px;
     height: 50px;
@@ -127,6 +131,10 @@ header .nav-logo-container img{
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
+}
+
+.main-info-button:hover{
+    background-color: #B18BDD;
 }
 
 .main{
@@ -271,7 +279,7 @@ footer button{
 }
 
 footer button:hover{
-    background-color: var(--hover-purple);
+    background-color: #B18BDD;
 }
 
 footer button span{
